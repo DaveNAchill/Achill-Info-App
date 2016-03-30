@@ -10,10 +10,6 @@
     <Grid Background="#FF3577C5" BorderBrush="#FF932B1B">
         <TextBlock x:Name="tbMain" HorizontalAlignment="Center" Margin="10,10,13,0" TextWrapping="Wrap" Text="Welcome to The Achill Island Info App!" VerticalAlignment="Top" Height="150" Width="337" FontFamily="Britannic Bold" FontSize="40.0"/>
         <Image x:Name="image" HorizontalAlignment="Center" Height="214" Margin="10,165,13,261" VerticalAlignment="Center" Width="337" Source="Assets/mainpic.jpg" Stretch="Fill"/>
-        <Button x:Name="btnInfo" Content="More Info" HorizontalAlignment="Center" Margin="125.333,527.491,98.667,80.556" VerticalAlignment="Center" Width="136" Background="#336A6AA2" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" BorderBrush="White" Click="btnInfo_Click">
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="-0.205"/>
-            </Button.RenderTransform>
-        </Button>
+        <HyperlinkButton x:Name="btnInfo" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="126,503,0,0" VerticalAlignment="Top" Foreground="WhiteSmoke" Click="btnInfo_Click_1"/>
     </Grid>
 </Page>
