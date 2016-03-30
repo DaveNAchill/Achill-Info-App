@@ -31,9 +31,7 @@ namespace David
 
         
 
-        
-
-        private void btnInfo_Click_1(object sender, RoutedEventArgs e)
+        private void btnInfo_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(InfoPage), null);
         }
