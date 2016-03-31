@@ -33,7 +33,10 @@ namespace David
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            this.Suspending += this.OnSuspending;
+
         }
+
 
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points

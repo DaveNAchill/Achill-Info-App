@@ -20,39 +20,13 @@ namespace David
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class InfoPage : Page
+    public sealed partial class Pub : Page
     {
-
-        public InfoPage()
+        public Pub()
         {
             this.InitializeComponent();
         }
 
-  
-
-        private void btnResturant_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Returant), null);
-        }
-
-        private void btnPub_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Pub), null);
-        }
-
-        private void btnBandB_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(BandB), null);
-        }
-
-        private void btnActivity_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Activity), null);
-        }
-
-
-    
-
-
+       
     }
 }

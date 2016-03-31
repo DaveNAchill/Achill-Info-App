@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="David.BandB"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:David"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF3577C5" BorderBrush="#FF932B1B">
+        <TextBlock x:Name="tbBandBPage" Margin="74,10,29,0" TextWrapping="Wrap" Text="B and B's" Height="41" Width="257" FontSize="29.333" FontWeight="Bold" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

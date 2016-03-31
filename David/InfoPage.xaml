@@ -14,22 +14,22 @@
         <TextBlock x:Name="tbPub" Margin="0,114,103,0" TextWrapping="Wrap" Text="Pub's" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Right"/>
         <TextBlock x:Name="tbBandB" HorizontalAlignment="Left" Margin="39,291,0,0" TextWrapping="Wrap" Text="B and B's" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBlock x:Name="tbActivity" HorizontalAlignment="Right" Margin="0,291,73,0" TextWrapping="Wrap" Text="Activitie's" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Button x:Name="btnResturant" Content="" HorizontalAlignment="Left" Margin="39,143,0,0" VerticalAlignment="Top" Width="116" Height="96">
+        <Button x:Name="btnResturant" Content="" HorizontalAlignment="Left" Margin="39,143,0,0" VerticalAlignment="Top" Width="116" Height="96" Click="btnResturant_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/chalet1.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnPub" Content="" HorizontalAlignment="Right" Margin="219,143,0,0" VerticalAlignment="Top" Height="96" Width="100">
+        <Button x:Name="btnPub" Content="" HorizontalAlignment="Right" Margin="219,143,0,0" VerticalAlignment="Top" Height="96" Width="100" Click="btnPub_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/mcloughlins-bar.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnBandB" Content="" HorizontalAlignment="Left" Margin="39,316,0,0" VerticalAlignment="Top" Height="118" Width="116">
+        <Button x:Name="btnBandB" Content="" HorizontalAlignment="Left" Margin="39,316,0,0" VerticalAlignment="Top" Height="118" Width="116" Click="btnBandB_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/bandbachill.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnActivity" Content="" HorizontalAlignment="Right" Margin="219,316,0,0" VerticalAlignment="Top" Height="118" Width="100">
+        <Button x:Name="btnActivity" Content="" HorizontalAlignment="Right" Margin="219,316,0,0" VerticalAlignment="Top" Height="118" Width="100" Click="btnActivity_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/surfingachill.jpg"/>
             </Button.Background>
