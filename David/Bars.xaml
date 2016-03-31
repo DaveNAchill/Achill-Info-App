@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="David.Pub"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:David"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer Margin="0,0,0,-554">
+        <Grid Background="#FF3577C5" BorderBrush="#FF932B1B" Height="1194" Width="360">
+            <TextBlock x:Name="tbPubPage" Margin="74,10,29,0" TextWrapping="Wrap" Height="81" Width="257" FontSize="29.333" FontWeight="Bold" VerticalAlignment="Top">
+				<Run Text="Bar"/>
+				<Run Text="'s and Entertainment"/>
+            </TextBlock>
+            <Image x:Name="imgMcLoughlins" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="Assets/mcloughlins-bar.jpg" Stretch="Fill" Margin="62,160,0,0"/>
+            <TextBlock x:Name="tbMcLoughlins" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="154" RenderTransformOrigin="0.5,0.901" HorizontalAlignment="Right" Margin="0,160,29,0" >
+				<Run Text="McLoughlin's Bar:"/>
+				<LineBreak/>
+				<Run Text="09845127"/>
+            </TextBlock>
+            <Image x:Name="imgAnnexe" HorizontalAlignment="Left" Height="100" Margin="62,265,0,0" VerticalAlignment="Top" Width="100" Source="Assets/annexe.jpg" Stretch="Fill"/>
+            <TextBlock x:Name="tbAnnexe" HorizontalAlignment="Left" Margin="177,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="144"  >
+				<Run Text="The Annexe:"/>
+				<LineBreak/>
+				<Run Text="098-43268"/>
+            </TextBlock>
+            <Image x:Name="imgTeds" HorizontalAlignment="Left" Height="100" Margin="62,370,0,0" VerticalAlignment="Top" Width="100" Source="Assets/teds.jpg" Stretch="Fill"/>
+            <TextBlock x:Name="tbTeds" HorizontalAlignment="Left" Margin="177,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="144" >
+				<Run Text="Ted Lavelle's:"/>
+				<Run Text=" "/>
+				<LineBreak/>
+				<Run Text="098-47234"/>
+				<Run Text="  "/>
+            </TextBlock>
+            <Image x:Name="imgLourdies" HorizontalAlignment="Left" Height="100" Margin="62,475,0,0" VerticalAlignment="Top" Width="100" Source="Assets/lourdies.jpg" Stretch="Fill"/>
+            <TextBlock x:Name="tbLourdies" HorizontalAlignment="Left" Margin="177,475,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="144">
+				<Run Text="Lourdie's:"/>
+				<LineBreak/>
+				<Run Text="098-43109"/>
+            </TextBlock>
+            <Image x:Name="imgValley" HorizontalAlignment="Left" Height="100" Margin="62,580,0,-40" VerticalAlignment="Top" Width="100" Source="Assets/valley.jpg" Stretch="Fill"/>
+            <TextBlock x:Name="tbVallley" HorizontalAlignment="Left" Margin="177,580,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="144" >
+				<Run Text="The Valley House:"/>
+				<LineBreak/>
+				<Run Text="098-47204"/>
+            </TextBlock>
+            <Image x:Name="imgLynotts" HorizontalAlignment="Left" Height="100" Margin="62,685,0,0" VerticalAlignment="Top" Width="100" Source="Assets/lynotts.jpg" Stretch="Fill"/>
+            <TextBlock x:Name="tbLynotts" HorizontalAlignment="Left" Margin="177,685,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="144">
+				<Run Text="Lynott's:"/>
+				<LineBreak/>
+				<Run Text="087-2658216"/>
+            </TextBlock>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

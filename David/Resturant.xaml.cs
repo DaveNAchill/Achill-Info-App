@@ -26,5 +26,20 @@ namespace David
         {
             this.InitializeComponent();
         }
+
+        private void tbCliffHouse_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock_SelectionChanged_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

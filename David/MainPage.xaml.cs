@@ -32,14 +32,16 @@ namespace David
 
         
 
-        private void btnInfo_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(InfoPage), null);
-        }
+       
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
+        }
+
+        private void btnInformation_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(InfoPage), null);
         }
     }
 }
