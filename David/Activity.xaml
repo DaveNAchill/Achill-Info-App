@@ -9,6 +9,21 @@
 
     <Grid Background="#FF3577C5" BorderBrush="#FF932B1B">
         <TextBlock x:Name="tbActivityPage" Margin="74,10,29,0" TextWrapping="Wrap" Text="Fun and Activities" Height="41" Width="257" FontSize="29.333" FontWeight="Bold" VerticalAlignment="Top"/>
+        <Grid Background="#FF3577C5" BorderBrush="#FF932B1B" Margin="0,0,0,-786">
+            <TextBlock x:Name="tbActivityPage1" Margin="74,10,29,0" TextWrapping="Wrap" Text="Fun and Activities" Height="41" Width="257" FontSize="29.333" FontWeight="Bold" VerticalAlignment="Top"/>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="143" Margin="10,56,0,0" VerticalAlignment="Top" Width="340" Source="Assets/kr_achill_surf_1.jpg" Stretch="Fill"/>
+            <HyperlinkButton Content="HyperlinkButton" HorizontalAlignment="Left" Margin="10,274,0,0" VerticalAlignment="Top" Height="110"/>
+            <Image x:Name="imgAchillSurf" HorizontalAlignment="Left" Height="100" Margin="18,274,0,0" VerticalAlignment="Top" Width="100" Source="Assets/achill-surf.png" Stretch="Fill"/>
+            <TextBlock x:Name="tbAchillSurf" HorizontalAlignment="Left" Margin="167,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="164">
+            	<Run Text="Achill Surf and Kayak:"/>
+            	<LineBreak/>
+            	<Run Text="085"/>
+            	<Run Text="-"/>
+            	<Run Text="1554376"/>
+            </TextBlock>
+            <HyperlinkButton Content="HyperlinkButton" HorizontalAlignment="Left" Margin="167,349,0,0" VerticalAlignment="Top"/>
+
+        </Grid>
 
     </Grid>
 </Page>

@@ -126,19 +126,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\achill-cliff-house.jpg" />
+    <Content Include="Assets\Achill-Lodge-Guest-House_1.jpg" />
     <Content Include="Assets\achill-sound-hotel.jpg" />
+    <Content Include="Assets\achill-surf.png" />
     <Content Include="Assets\annexe.jpg" />
+    <Content Include="Assets\atlantic-breeze-bsb.jpg" />
     <Content Include="Assets\bandbachill.jpg" />
     <Content Include="Assets\bayside_bistro.jpg" />
+    <Content Include="Assets\bervie.jpg" />
     <Content Include="Assets\chalet1.jpg" />
     <Content Include="Assets\Cottage-.jpg" />
+    <Content Include="Assets\ferndale-guesthouse.jpg" />
+    <Content Include="Assets\hy-breasal.jpg" />
+    <Content Include="Assets\kr_achill_surf_1.jpg" />
     <Content Include="Assets\lourdies.jpg" />
     <Content Include="Assets\lynotts.jpg" />
     <Content Include="Assets\mainpic.jpg" />
     <Content Include="Assets\mcloughlins-bar.jpg" />
     <Content Include="Assets\pure-magic.jpg" />
+    <Content Include="Assets\roskeel-house-.jpg" />
     <Content Include="Assets\surfingachill.jpg" />
     <Content Include="Assets\teds.jpg" />
+    <Content Include="Assets\the-valley-house-bar.jpg" />
     <Content Include="Assets\valley.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

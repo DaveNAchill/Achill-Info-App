@@ -11,9 +11,9 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="107,10,41,0" TextWrapping="Wrap" Text="Choose a Category Below" Height="81" Width="212" VerticalAlignment="Top" FontSize="26.667"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="39,139,0,0" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="tbResturant" HorizontalAlignment="Left" Margin="39,114,0,0" TextWrapping="Wrap" Text="Resturants" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBlock x:Name="tbPub" Margin="0,114,103,0" TextWrapping="Wrap" Text="Bars" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Right"/>
+        <TextBlock x:Name="tbPub" Margin="0,118,69,0" TextWrapping="Wrap" Text="Bars" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Right" RenderTransformOrigin="0.556,0.45"/>
         <TextBlock x:Name="tbBandB" HorizontalAlignment="Left" Margin="39,291,0,0" TextWrapping="Wrap" Text="B and B's" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBlock x:Name="tbActivity" HorizontalAlignment="Right" Margin="0,291,73,0" TextWrapping="Wrap" Text="Activities" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="tbActivity" HorizontalAlignment="Right" Margin="0,291,33,0" TextWrapping="Wrap" Text="Activities" VerticalAlignment="Top" FontWeight="Bold"/>
         <Button x:Name="btnResturant" Content="" HorizontalAlignment="Left" Margin="39,143,0,0" VerticalAlignment="Top" Width="116" Height="96" Click="btnResturant_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/chalet1.jpg"/>

@@ -47,6 +47,7 @@
 				<LineBreak/>
 				<Run Text="098-43859"/>
             </TextBlock>
+            <Image x:Name="imgResturant" HorizontalAlignment="Left" Height="109" Margin="10,51,0,0" VerticalAlignment="Top" Width="340" Source="Assets/chalet1.jpg" Stretch="Fill"/>
 
         </Grid>
     </ScrollViewer>

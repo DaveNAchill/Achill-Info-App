@@ -9,6 +9,50 @@
 
     <Grid Background="#FF3577C5" BorderBrush="#FF932B1B">
         <TextBlock x:Name="tbBandBPage" Margin="74,10,29,0" TextWrapping="Wrap" Text="B and B's" Height="41" Width="257" FontSize="29.333" FontWeight="Bold" VerticalAlignment="Top"/>
+        <ScrollViewer Margin="0,0,0,-554">
+            <Grid Background="#FF3577C5" BorderBrush="#FF932B1B" Height="1426" Width="360">
+                <TextBlock x:Name="tbBandBPage1" Margin="74,10,29,0" TextWrapping="Wrap" Text="Bed and Breakfast" Height="41" Width="257" FontSize="29.333" FontWeight="Bold" VerticalAlignment="Top"/>
+                <Image x:Name="imgAlanticBreeze" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="Assets/atlantic-breeze-bsb.jpg" Stretch="Fill" Margin="62,160,0,0"/>
+                <TextBlock x:Name="tbAtlantic" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="154" RenderTransformOrigin="0.5,0.901" HorizontalAlignment="Right" Margin="0,160,29,0">
+        			<Run Text="Atlantic Breeze:"/>
+        			<LineBreak/>
+        			<Run Text="098-43189"/>
+                </TextBlock>
+                <Image x:Name="imgBervie" HorizontalAlignment="Left" Height="100" Margin="62,265,0,0" VerticalAlignment="Top" Width="100" Source="Assets/bervie.jpg" Stretch="Fill"/>
+                <TextBlock x:Name="tbBervie" HorizontalAlignment="Left" Margin="177,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="144" >
+        			<Run Text="The Bervie:"/>
+        			<LineBreak/>
+        			<Run Text="098-43114"/>
+                </TextBlock>
+                <Image x:Name="imgHyBrasil" HorizontalAlignment="Left" Height="100" Margin="62,370,0,0" VerticalAlignment="Top" Width="100" Source="Assets/hy-breasal.jpg" Stretch="Fill"/>
+                <TextBlock x:Name="tbHyBrasil" HorizontalAlignment="Left" Margin="177,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="144" >
+        			<Run Text="Hy Breasal:"/>
+        			<LineBreak/>
+        			<Run Text="098-45114"/>
+                </TextBlock>
+                <Image x:Name="imgAchillLodge" HorizontalAlignment="Left" Height="100" Margin="62,475,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Achill-Lodge-Guest-House_1.jpg" Stretch="Fill"/>
+                <TextBlock x:Name="tbAchillLodge" HorizontalAlignment="Left" Margin="177,475,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="144">
+        			<Run Text="Achill Lodge:"/>
+        			<LineBreak/>
+        			<Run Text="098-47162"/>
+                </TextBlock>
+                <Image x:Name="imgFerndale" HorizontalAlignment="Left" Height="100" Margin="62,580,0,-40" VerticalAlignment="Top" Width="100" Source="Assets/ferndale-guesthouse.jpg" Stretch="Fill"/>
+                <TextBlock x:Name="tbFerndale" HorizontalAlignment="Left" Margin="177,580,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="144" >
+        			<Run Text="Ferndale:"/>
+        			<LineBreak/>
+        			<Run Text="098-43908"/>
+                </TextBlock>
+                <Image x:Name="imgRoskeel" HorizontalAlignment="Left" Height="100" Margin="62,685,0,0" VerticalAlignment="Top" Width="100" Source="Assets/roskeel-house-.jpg" Stretch="Fill"/>
+                <TextBlock x:Name="tbRoskeel" HorizontalAlignment="Left" Margin="177,685,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="144">
+        			<Run Text="Roskeel House:"/>
+        			<LineBreak/>
+        			<Run Text="098-43537"/>
+                </TextBlock>
+                <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,51,0,0" VerticalAlignment="Top" Width="340" Source="Assets/atlantic-breeze-bsb.jpg" Stretch="Fill"/>
+
+            </Grid>
+
+        </ScrollViewer>
 
     </Grid>
 </Page>
