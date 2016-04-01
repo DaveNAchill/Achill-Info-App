@@ -14,14 +14,24 @@
             <Image x:Name="image" HorizontalAlignment="Left" Height="143" Margin="10,56,0,0" VerticalAlignment="Top" Width="340" Source="Assets/kr_achill_surf_1.jpg" Stretch="Fill"/>
             <HyperlinkButton Content="HyperlinkButton" HorizontalAlignment="Left" Margin="10,274,0,0" VerticalAlignment="Top" Height="110"/>
             <Image x:Name="imgAchillSurf" HorizontalAlignment="Left" Height="100" Margin="18,274,0,0" VerticalAlignment="Top" Width="100" Source="Assets/achill-surf.png" Stretch="Fill"/>
-            <TextBlock x:Name="tbAchillSurf" HorizontalAlignment="Left" Margin="167,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="164">
+            <TextBlock x:Name="tbAchillSurf" HorizontalAlignment="Left" Margin="167,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="164">
             	<Run Text="Achill Surf and Kayak:"/>
             	<LineBreak/>
             	<Run Text="085"/>
             	<Run Text="-"/>
             	<Run Text="1554376"/>
+            	<LineBreak/>
+            	<Run Text="Keel"/>
             </TextBlock>
             <HyperlinkButton Content="HyperlinkButton" HorizontalAlignment="Left" Margin="167,349,0,0" VerticalAlignment="Top"/>
+            <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="18,424,0,0" VerticalAlignment="Top" Width="100" Source="Assets/achill-outdoor.png" Stretch="Fill"/>
+            <TextBlock x:Name="tbAchillOutdoor" HorizontalAlignment="Left" Margin="167,424,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="164">
+            	<Run Text="Achill Oudoor Centre:"/>
+            	<LineBreak/>
+            	<Run Text="098-47253"/>
+            	<LineBreak/>
+            	<Run Text="Cashel"/>
+            </TextBlock>
 
         </Grid>
 

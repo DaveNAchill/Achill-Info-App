@@ -34,6 +34,12 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/surfingachill.jpg"/>
             </Button.Background>
         </Button>
+        <TextBlock x:Name="tbTaxi" HorizontalAlignment="Left" Margin="155,476,0,0" TextWrapping="Wrap" Text="Taxi" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="155,501,0,0" VerticalAlignment="Top" Height="95" Width="101" Click="button_Click">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/taxi.jpg"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

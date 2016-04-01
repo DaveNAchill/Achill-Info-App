@@ -94,9 +94,10 @@ namespace David
             this.Frame.Navigate(typeof(Activity), null);
         }
 
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Taxi), null);
 
-    
-
-
+        }
     }
 }

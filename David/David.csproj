@@ -117,6 +117,9 @@
     <Compile Include="Resturant.xaml.cs">
       <DependentUpon>Resturant.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Taxi.xaml.cs">
+      <DependentUpon>Taxi.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -127,8 +130,10 @@
   <ItemGroup>
     <Content Include="Assets\achill-cliff-house.jpg" />
     <Content Include="Assets\Achill-Lodge-Guest-House_1.jpg" />
+    <Content Include="Assets\achill-outdoor.png" />
     <Content Include="Assets\achill-sound-hotel.jpg" />
     <Content Include="Assets\achill-surf.png" />
+    <Content Include="Assets\achill-taxis.jpg" />
     <Content Include="Assets\annexe.jpg" />
     <Content Include="Assets\atlantic-breeze-bsb.jpg" />
     <Content Include="Assets\bandbachill.jpg" />
@@ -146,6 +151,8 @@
     <Content Include="Assets\pure-magic.jpg" />
     <Content Include="Assets\roskeel-house-.jpg" />
     <Content Include="Assets\surfingachill.jpg" />
+    <Content Include="Assets\taxi-logo.jpg" />
+    <Content Include="Assets\taxi.jpg" />
     <Content Include="Assets\teds.jpg" />
     <Content Include="Assets\the-valley-house-bar.jpg" />
     <Content Include="Assets\valley.jpg" />
@@ -184,6 +191,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resturant.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Taxi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

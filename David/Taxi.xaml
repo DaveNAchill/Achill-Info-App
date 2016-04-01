@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="David.Taxi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:David"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF3577C5" BorderBrush="#FF932B1B">
+        <TextBlock x:Name="tbTaxiPage" HorizontalAlignment="Center" Margin="114,10,77,0" TextWrapping="Wrap" Text="Taxi and Hackney" VerticalAlignment="Top" Width="169" FontWeight="Bold" FontSize="39.111"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="124" Margin="10,119,0,0" VerticalAlignment="Top" Width="340" Source="Assets/taxi-logo.jpg" Stretch="Fill"/>
+        <Image x:Name="imgAchillTaxi" HorizontalAlignment="Left" Height="116" Margin="10,291,0,0" VerticalAlignment="Top" Width="138" Source="Assets/achill-taxis.jpg" Stretch="Fill"/>
+        <TextBlock x:Name="tbAchillTaxi" HorizontalAlignment="Left" Margin="153,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="197">
+        	<Run Text="Achill Taxis:"/>
+        	<LineBreak/>
+        	<Run Text="086-3634106"/>
+        	<LineBreak/>
+        	<Run Text="Dooniver"/>
+        </TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="153,453,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="130" SelectionChanged="textBlock_SelectionChanged">
+        	<Run Text="Paul McLoughlin:"/>
+        	<LineBreak/>
+        	<Run Text="098-45652"/>
+        	<LineBreak/>
+        	<Run Text="Achill Sound"/>
+        </TextBlock>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="10,453,0,0" VerticalAlignment="Top" Width="138" Source="Assets/taxi-logo.jpg"/>
+
+    </Grid>
+</Page>

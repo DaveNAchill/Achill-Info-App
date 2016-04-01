@@ -16,38 +16,50 @@
             	<Run Text="098"/>
             	<Run Text="-"/>
             	<Run Text="45127"/>
+            	<LineBreak/>
+            	<Run Text="Achill Sound"/>
             </TextBlock>
             <Image x:Name="imgAnnexe" HorizontalAlignment="Left" Height="100" Margin="62,265,0,0" VerticalAlignment="Top" Width="100" Source="Assets/annexe.jpg" Stretch="Fill"/>
             <TextBlock x:Name="tbAnnexe" HorizontalAlignment="Left" Margin="177,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="144"  >
-				<Run Text="The Annexe:"/>
-				<LineBreak/>
-				<Run Text="098-43268"/>
+            	<Run Text="The Annexe:"/>
+            	<LineBreak/>
+            	<Run Text="098-43268"/>
+            	<LineBreak/>
+            	<Run Text="Keel"/>
             </TextBlock>
             <Image x:Name="imgTeds" HorizontalAlignment="Left" Height="100" Margin="62,370,0,0" VerticalAlignment="Top" Width="100" Source="Assets/teds.jpg" Stretch="Fill"/>
             <TextBlock x:Name="tbTeds" HorizontalAlignment="Left" Margin="177,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="144" >
-				<Run Text="Ted Lavelle's:"/>
-				<Run Text=" "/>
-				<LineBreak/>
-				<Run Text="098-47234"/>
-				<Run Text="  "/>
+            	<Run Text="Ted Lavelle's:"/>
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run Text="098-47234"/>
+            	<LineBreak/>
+            	<Run Text="Cashel"/>
+            	<Run Text="  "/>
             </TextBlock>
             <Image x:Name="imgLourdies" HorizontalAlignment="Left" Height="100" Margin="62,475,0,0" VerticalAlignment="Top" Width="100" Source="Assets/lourdies.jpg" Stretch="Fill"/>
             <TextBlock x:Name="tbLourdies" HorizontalAlignment="Left" Margin="177,475,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="144">
-				<Run Text="Lourdie's:"/>
-				<LineBreak/>
-				<Run Text="098-43109"/>
+            	<Run Text="Lourdie's:"/>
+            	<LineBreak/>
+            	<Run Text="098-43109"/>
+            	<LineBreak/>
+            	<Run Text="Dooagh"/>
             </TextBlock>
             <Image x:Name="imgValley" HorizontalAlignment="Left" Height="100" Margin="62,580,0,-40" VerticalAlignment="Top" Width="100" Source="Assets/valley.jpg" Stretch="Fill"/>
-            <TextBlock x:Name="tbVallley" HorizontalAlignment="Left" Margin="177,580,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="144" >
-				<Run Text="The Valley House:"/>
-				<LineBreak/>
-				<Run Text="098-47204"/>
+            <TextBlock x:Name="tbVallley" HorizontalAlignment="Left" Margin="177,580,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="144" >
+            	<Run Text="The Valley House:"/>
+            	<LineBreak/>
+            	<Run Text="098-47204"/>
+            	<LineBreak/>
+            	<Run Text="The Valley"/>
             </TextBlock>
             <Image x:Name="imgLynotts" HorizontalAlignment="Left" Height="100" Margin="62,685,0,0" VerticalAlignment="Top" Width="100" Source="Assets/lynotts.jpg" Stretch="Fill"/>
             <TextBlock x:Name="tbLynotts" HorizontalAlignment="Left" Margin="177,685,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="144">
-				<Run Text="Lynott's:"/>
-				<LineBreak/>
-				<Run Text="087-2658216"/>
+            	<Run Text="Lynott's:"/>
+            	<LineBreak/>
+            	<Run Text="087-2658216"/>
+            	<LineBreak/>
+            	<Run Text="Cashel"/>
             </TextBlock>
             <Image x:Name="image" HorizontalAlignment="Left" Height="110" Margin="10,40,0,0" VerticalAlignment="Top" Width="340" Source="Assets/the-valley-house-bar.jpg" Stretch="Fill"/>
 

@@ -12,40 +12,52 @@
         <Grid Background="#FF3577C5" BorderBrush="#FF932B1B" Height="1194" Width="360">
             <TextBlock x:Name="tbResPage" Margin="74,10,29,0" TextWrapping="Wrap" Text="Resturant's" Height="41" Width="257" FontSize="29.333" FontWeight="Bold" VerticalAlignment="Top"/>
             <Image x:Name="imgChalet" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="Assets/chalet1.jpg" Stretch="Fill" Margin="62,160,0,0"/>
-            <TextBlock x:Name="tbChalet" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="154" RenderTransformOrigin="0.5,0.901" HorizontalAlignment="Right" Margin="0,160,29,0">
-				<Run Text="The Chalet Seafood Resturant:"/>
-				<LineBreak/>
-				<Run Text="098-43157"/>
+            <TextBlock x:Name="tbChalet" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="154" RenderTransformOrigin="0.5,0.901" HorizontalAlignment="Right" Margin="0,160,29,0">
+            	<Run Text="The Chalet Seafood Resturant:"/>
+            	<LineBreak/>
+            	<Run Text="098-43157"/>
+            	<LineBreak/>
+            	<Run Text="Keel"/>
             </TextBlock>
             <Image x:Name="imgCliffHouse" HorizontalAlignment="Left" Height="100" Margin="62,265,0,0" VerticalAlignment="Top" Width="100" Source="Assets/achill-cliff-house.jpg" Stretch="Fill"/>
             <TextBlock x:Name="tbCliffHouse" HorizontalAlignment="Left" Margin="177,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="144" SelectionChanged="tbCliffHouse_SelectionChanged">
-				<Run Text="Achill Cliff House:"/>
-				<LineBreak/>
-				<Run Text="098-43400"/>
+            	<Run Text="Achill Cliff House:"/>
+            	<LineBreak/>
+            	<Run Text="098-43400"/>
+            	<LineBreak/>
+            	<Run Text="Keel"/>
             </TextBlock>
             <Image x:Name="imgSoundHotel" HorizontalAlignment="Left" Height="100" Margin="62,370,0,0" VerticalAlignment="Top" Width="100" Source="Assets/achill-sound-hotel.jpg" Stretch="Fill"/>
             <TextBlock x:Name="tbSoundHotel" HorizontalAlignment="Left" Margin="177,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="144" SelectionChanged="textBlock_SelectionChanged">
-				<Run Text="Achill Sound Hotel:"/>
-				<LineBreak/>
-				<Run Text="098-45245"/>
+            	<Run Text="Achill Sound Hotel:"/>
+            	<LineBreak/>
+            	<Run Text="098-45245"/>
+            	<LineBreak/>
+            	<Run Text="Achill Sound"/>
             </TextBlock>
             <Image x:Name="imgBayside" HorizontalAlignment="Left" Height="100" Margin="62,475,0,0" VerticalAlignment="Top" Width="100" Source="Assets/bayside_bistro.jpg" Stretch="Fill"/>
             <TextBlock x:Name="tbBayside" HorizontalAlignment="Left" Margin="177,475,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="144">
-				<Run Text="Bayside Bistro:"/>
-				<LineBreak/>
-				<Run Text="098-43798"/>
+            	<Run Text="Bayside Bistro:"/>
+            	<LineBreak/>
+            	<Run Text="098-43798"/>
+            	<LineBreak/>
+            	<Run Text="Keel"/>
             </TextBlock>
             <Image x:Name="imgCottage" HorizontalAlignment="Left" Height="100" Margin="62,580,0,-40" VerticalAlignment="Top" Width="100" Source="Assets/Cottage-.jpg" Stretch="Fill"/>
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="177,580,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="144" SelectionChanged="textBlock_SelectionChanged_1">
-				<Run Text="The Cottage:"/>
-				<LineBreak/>
-				<Run Text="098-43966"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="177,580,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="144" SelectionChanged="textBlock_SelectionChanged_1">
+            	<Run Text="The Cottage:"/>
+            	<LineBreak/>
+            	<Run Text="098-43966"/>
+            	<LineBreak/>
+            	<Run Text="Dugort"/>
             </TextBlock>
             <Image x:Name="imgPureMagic" HorizontalAlignment="Left" Height="100" Margin="62,685,0,0" VerticalAlignment="Top" Width="100" Source="Assets/pure-magic.jpg" Stretch="Fill"/>
             <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="177,685,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="144">
-				<Run Text="Pure Magic Achill:"/>
-				<LineBreak/>
-				<Run Text="098-43859"/>
+            	<Run Text="Pure Magic Achill:"/>
+            	<LineBreak/>
+            	<Run Text="098-43859"/>
+            	<LineBreak/>
+            	<Run Text="Dugort"/>
             </TextBlock>
             <Image x:Name="imgResturant" HorizontalAlignment="Left" Height="109" Margin="10,51,0,0" VerticalAlignment="Top" Width="340" Source="Assets/chalet1.jpg" Stretch="Fill"/>
 
