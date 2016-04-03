@@ -10,7 +10,6 @@
     <Grid Background="#FF3577C5" BorderBrush="#FF932B1B">
         <TextBlock x:Name="tbMain" HorizontalAlignment="Center" Margin="10,10,13,0" TextWrapping="Wrap" Text="Welcome to The Achill Island Info App!" VerticalAlignment="Top" Height="150" Width="337" FontFamily="Britannic Bold" FontSize="40.0"/>
         <Image x:Name="image" HorizontalAlignment="Center" Height="244" Margin="10,165,13,231" VerticalAlignment="Center" Width="337" Source="Assets/mainpic.jpg"/>
-        <Button x:Name="btnDirections" Content="Directions" HorizontalAlignment="Center" Margin="121,533,119,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnInformation" Content="Start" HorizontalAlignment="Left" Margin="121,468,0,0" VerticalAlignment="Top" Width="120" Click="btnInformation_Click"/>
+        <Button x:Name="btnInformation" Content="Start" HorizontalAlignment="Left" Margin="120,496,0,0" VerticalAlignment="Top" Width="120" Click="btnInformation_Click" Height="45"/>
     </Grid>
 </Page>

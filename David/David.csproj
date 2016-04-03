@@ -104,6 +104,9 @@
     <Compile Include="BandB.xaml.cs">
       <DependentUpon>BandB.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Directions.xaml.cs">
+      <DependentUpon>Directions.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
@@ -175,6 +178,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="BandB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Directions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

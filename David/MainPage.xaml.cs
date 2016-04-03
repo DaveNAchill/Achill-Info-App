@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Phone.UI.Input; // For the back button
+using Windows.Devices.Geolocation;
+using System.Threading.Tasks;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -28,11 +30,13 @@ namespace David
         public MainPage()
         {
             this.InitializeComponent();
+            //this.GetCoordinates();
         }
 
         
 
-       
+
+
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -42,6 +46,12 @@ namespace David
         private void btnInformation_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(InfoPage), null);
+        }
+
+        private void btnDirections_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Directions), null);
+
         }
     }
 }
